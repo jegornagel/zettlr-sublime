@@ -1,0 +1,120 @@
+body #editor .CodeMirror .cm-formatting-list-ul, body .quicklook .body .CodeMirror .cm-formatting-list-ul, body .dialog .CodeMirror .cm-formatting-list-ul, body #editor .CodeMirror .cm-formatting-list-ol, body .quicklook .body .CodeMirror .cm-formatting-list-ol, body .dialog .CodeMirror .cm-formatting-list-ol {
+    color: rgb(145 117 246);
+}
+:root {
+    --green-0: rgb(62 63 59 );
+}
+#file-manager #file-manager-resize, #file-manager #file-manager-inner-resizer {
+    width: 3px;
+    right: -1px;
+    color: rgb(30,31,27);
+    background: rgb(30,31,27);
+}
+body #editor {
+    transition: 0.2s background-color ease;
+    background: rgb(30,30,27 );
+    margin-left: -10px;
+}
+body #file-tree {
+    background-color: rgb(230,233,234);
+    font-size: 0.8em;
+    color: rgb(30,30,27 );
+}
+body.darwin, body.linux {
+    font-family: 'SF Mono', monospace;
+}
+body {
+    font-family: 'SF Mono', monospace;
+    font-weight: 500;
+}
+.directory p.filename {
+    font-weight: 900;
+}
+#file-tree .filename {
+    line-height: 0em;
+    padding: 0;
+    white-space: nowrap;
+    padding-left: 0;
+    margin: 5px 0px;
+    overflow: hidden;
+}
+body #file-tree div.list-item.selected {
+    background-color: rgb(187 192 198 );
+    color: inherit;
+}
+#editor * {
+    font-family: 'SF Mono', monospace;
+    font-size: 1.0em;
+    color: rgb(246,246,239);
+    line-height:1.4em;
+    font-weight: 300;
+}
+body #editor .CodeMirror .cm-formatting-header-1, body .quicklook .body .CodeMirror .cm-formatting-header-1, body .dialog .CodeMirror .cm-formatting-header-1, body #editor .CodeMirror .cm-formatting-header-2, body .quicklook .body .CodeMirror .cm-formatting-header-2, body .dialog .CodeMirror .cm-formatting-header-2, body #editor .CodeMirror .cm-formatting-header-3, body .quicklook .body .CodeMirror .cm-formatting-header-3, body .dialog .CodeMirror .cm-formatting-header-3, body #editor .CodeMirror .cm-formatting-header-4, body .quicklook .body .CodeMirror .cm-formatting-header-4, body .dialog .CodeMirror .cm-formatting-header-4, body #editor .CodeMirror .cm-formatting-header-5, body .quicklook .body .CodeMirror .cm-formatting-header-5, body .dialog .CodeMirror .cm-formatting-header-5, body #editor .CodeMirror .cm-formatting-header-6, body .quicklook .body .CodeMirror .cm-formatting-header-6, body .dialog .CodeMirror .cm-formatting-header-6, body #editor .CodeMirror .cm-url, body .quicklook .body .CodeMirror .cm-url, body .dialog .CodeMirror .cm-url {
+    color: rgb(187 41 88);
+}
+body #editor .CodeMirror .cma, body .quicklook .body .CodeMirror .cma, body .dialog .CodeMirror .cma {
+    color: rgb(112 206 230 );
+    font-weight: inherit;
+}
+#editor .cm-header-1, #editor .cm-header-2, #editor .cm-header-3, #editor .cm-header-4, #editor .cm-header-5, #editor .cm-header-6, #editor .cm-formatting-header {
+    color: rgb(246,246,239);
+    font-weight: 800;
+}
+body #document-tabs {
+    border-bottom: 0;
+}
+body #document-tabs .document.active {
+    background-color: rgb(45 45 42 );
+    color: #ffffff;
+}
+body #document-tabs .document:hover {
+    background-color: rgb(45 45 42 );
+}
+.CodeMirror .cm-zkn-tag.meta-key:hover, .CodeMirror .cm-zkn-link.meta-key:hover, .CodeMirror a.cma {
+    text-decoration: none;
+}
+#editor {
+    left: calc(20%);
+}
+body #file-tree #directories-dirs-header, body #file-tree #directories-files-header {
+    display: none;
+}
+#editor .CodeMirror-scroll {
+    padding-right: 50px;
+}
+.CodeMirror-sizer {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.CodeMirror .CodeMirror-gutters {
+    width: 0;
+}
+#editor .CodeMirror {
+    margin-left: 10px;
+}
+.CodeMirror-sizer {
+    border-right-width: 6px;
+}
+#editor .CodeMirror-code {
+    margin-bottom: 5em;
+    margin-top: 10px;
+}
+body #toolbar {
+    background-color: rgb(30 30 30 );
+    color: rgb(87 87 87 ) ;
+}
+body #toolbar .searchbar input {
+    color: rgb(87 87 87 );
+    background-color: rgb(30 30 30 );
+    border: 1px solid rgb(87 87 87 );
+    font-size: 0.72em;
+    transition: 0.5s border-color ease;
+    border-radius: 4px;
+}
+body #editor .CodeMirror .cm-quote, body .quicklook .body .CodeMirror .cm-quote, body .dialog .CodeMirror .cm-quote, body #editor .CodeMirror .cm-link, body .quicklook .body .CodeMirror .cm-link, body .dialog .CodeMirror .cm-link, body #editor .CodeMirror .cm-strong, body .quicklook .body .CodeMirror .cm-strong, body .dialog .CodeMirror .cm-strong, body #editor .CodeMirror .cm-em, body .quicklook .body .CodeMirror .cm-em, body .dialog .CodeMirror .cm-em {
+    color: rgb(246,246,239);
+    font-weight: 600;
+}
+body #sidebar {
+    background-color: rgb(230   233 235 );
+}
