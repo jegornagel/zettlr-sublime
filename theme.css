@@ -118,3 +118,24 @@ body #editor .CodeMirror .cm-quote, body .quicklook .body .CodeMirror .cm-quote,
 body #sidebar {
     background-color: rgb(230   233 235 );
 }
+
+body .quicklook .body .CodeMirror .cm-yaml-frontmatter-start::after, body .dialog .CodeMirror .cm-yaml-frontmatter-start::after {
+    background-color: transparent;
+}
+body #editor .CodeMirror .cm-fenced-code.cm-atom, body .quicklook .body .CodeMirror .cm-fenced-code.cm-atom, body .dialog .CodeMirror .cm-fenced-code.cm-atom, body #editor .CodeMirror .cm-stex-mode.cm-atom, body .quicklook .body .CodeMirror .cm-stex-mode.cm-atom, body .dialog .CodeMirror .cm-stex-mode.cm-atom {
+    color: orange;
+}
+body #editor .CodeMirror .cm-fenced-code.cm-string, body .quicklook .body .CodeMirror .cm-fenced-code.cm-string, body .dialog .CodeMirror .cm-fenced-code.cm-string, body #editor .CodeMirror .cm-stex-mode.cm-string, body .quicklook .body .CodeMirror .cm-stex-mode.cm-string, body .dialog .CodeMirror .cm-stex-mode.cm-string {
+    color: red;
+}
+span.cm-atom.cm-fenced-code {
+    padding-left: 25px !important;
+}
+.CodeMirror-gutter-elt {
+    margin-left: -10px !important;
+    width: 22px;
+}
+body #editor .CodeMirror .CodeMirror-foldmarker, body .quicklook .body .CodeMirror .CodeMirror-foldmarker, body .dialog .CodeMirror .CodeMirror-foldmarker {
+    background-color: transparent;
+    color: violet;
+}
