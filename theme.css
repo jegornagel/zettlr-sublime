@@ -31,7 +31,7 @@ body {
     font-weight: 900;
 }
 #file-tree .filename {
-    line-height: 0em;
+    line-height: 1em;
     padding: 0;
     white-space: nowrap;
     padding-left: 0;
